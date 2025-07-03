@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d89758c086b8345ca9cb2ecfdb5f55ae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Button: {instanceID: 0}
+  - talkUI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
