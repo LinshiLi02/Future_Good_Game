@@ -622,29 +622,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Back 0: -1010605625
-      Back 1: -1061235666
-      Box 0: -155058199
-      Box 1: 1777749549
-      Front 0: 1312383074
-      Front 1: -1722126508
-      Icon 0: 891942287
-      Joystick 0: 1328899968
-      Joystick 1: -1798395208
-      Panel: -8390244
-      Select 0: -181907988
-      Select 1: -1786786079
-      Select 2: -344242777
-      Select 3: -205726582
-      Select 4: 563336626
       Select 5: -762074860
-      Select 6: -201829820
+      Select 0: -181907988
+      Front 0: 1312383074
       Select 7: -966295699
-      Select 8: 927338625
+      Title 2: -77559378
+      Back 1: -1061235666
+      Icon 0: 891942287
+      Select 3: -205726582
+      Joystick 0: 1328899968
+      Box 1: 1777749549
+      Box 0: -155058199
+      Front 1: -1722126508
+      Joystick 1: -1798395208
+      Title 1: -1799623379
+      Select 6: -201829820
+      Panel: -8390244
+      Select 2: -344242777
       Select 9: -1002307068
       Title 0: 1315674547
-      Title 1: -1799623379
-      Title 2: -77559378
+      Select 8: 927338625
+      Back 0: -1010605625
+      Select 4: 563336626
+      Select 1: -1786786079
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
