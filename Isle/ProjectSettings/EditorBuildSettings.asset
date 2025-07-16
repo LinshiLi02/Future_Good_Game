@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/LiteMapScene.unity
+    guid: fedd909e5c12c42c8a2088cefc9ba88a
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Level 1-Tower.unity
+    guid: 8c108a77049b8499684e1d1456f1bf73
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Level2-Garden.unity
+    guid: 18d5cee93714842a1bbb821ba76cfb69
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Level3-Cave.unity
+    guid: 4a59617d8655f4ddda69c298bb53c09b
   m_configObjects: {}
