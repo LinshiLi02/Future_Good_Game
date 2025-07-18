@@ -17,4 +17,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Level3-Cave.unity
     guid: 4a59617d8655f4ddda69c298bb53c09b
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Background
+      video 0.unity
+    guid: 69bece392ecfb44a7af4799bb227ee5e
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Background
+      video 1.unity
+    guid: 233e4b63b502446ee839092af39d27e1
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Background
+      video 2.unity
+    guid: c11d5b921fb8c460695a7295d642bac8
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Background
+      video 3.unity
+    guid: c1b3f7ceef1cc40c68f73a67733cea36
   m_configObjects: {}
