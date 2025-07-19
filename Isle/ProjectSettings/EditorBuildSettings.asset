@@ -33,4 +33,21 @@ EditorBuildSettings:
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Background
       video 3.unity
     guid: c1b3f7ceef1cc40c68f73a67733cea36
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Key.unity
+    guid: 76dce45e31a5943c1a6330f85f1263f8
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Open the chest.unity
+    guid: 52c3d5247699b435ca2515278a497ba8
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ReadLetter
+      0.unity
+    guid: be0b163f1ad684c9691b4e96f4a7c461
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ResultScene.unity
+    guid: 711ecec9ecd7f4919b95b3abc6b39b7d
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ReadLetter
+      1.unity
+    guid: e7e36c842a22545eaa8d87724a70bcad
   m_configObjects: {}
