@@ -50,4 +50,10 @@ EditorBuildSettings:
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ReadLetter
       1.unity
     guid: e7e36c842a22545eaa8d87724a70bcad
+  - enabled: 1
+    path: Assets/Resources/Characters/Change 1.unity
+    guid: 4c253d8b19dba4faf927bc918c48719c
+  - enabled: 1
+    path: Assets/Resources/Characters/Change.unity
+    guid: 192c675e87f9545cf92cecf4817a3925
   m_configObjects: {}
