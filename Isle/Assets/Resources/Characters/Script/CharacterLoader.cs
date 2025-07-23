@@ -7,7 +7,7 @@ public class CharacterLoader : MonoBehaviour
     public Animator eyesAnimator;
     public Animator shirtAnimator;
     public Animator frontHairAnimator;
-    //public Animator shoesAnimator;
+    public Animator shoesAnimator;
     public Animator pantsAnimator;
 
     private void Start()
@@ -17,7 +17,7 @@ public class CharacterLoader : MonoBehaviour
         LoadAnim(eyesAnimator, "SelectedEyes", "Eyes");
         LoadAnim(shirtAnimator, "SelectedShirt", "Shirt");
         LoadAnim(frontHairAnimator, "SelectedFrontHair", "FrontHair");
-        //LoadAnim(shoesAnimator, "SelectedShoes", "Shoes");
+        LoadAnim(shoesAnimator, "SelectedShoes", "Shoes");
         LoadAnim(pantsAnimator, "SelectedPants", "Pants");
     }
 

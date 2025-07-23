@@ -365,7 +365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 729325ce28fda432c9e2542afb4dd40b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 957ce49f4a42a4824a28e00d44ab92f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you were to write one sentence back to your future self about your career
+  m_text: If you were to say one sentence back to your future self about your career
     direction, what would you say
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 077e352b7a25e47a28e70a633e91db7e, type: 2}
