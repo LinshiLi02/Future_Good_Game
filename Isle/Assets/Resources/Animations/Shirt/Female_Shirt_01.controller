@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1102 &-8419115823367263571
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Male_Shirt_01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: d653befcc101244f19eb82602745f001, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1107 &-8239290885419691237
 AnimatorStateMachine:
   serializedVersion: 6
@@ -13,17 +39,23 @@ AnimatorStateMachine:
     m_State: {fileID: -2660881783645573143}
     m_Position: {x: 320, y: 140, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5652041875211885331}
-    m_Position: {x: 355, y: 205, z: 0}
+    m_State: {fileID: -8419115823367263571}
+    m_Position: {x: 320, y: 260, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 961684501954072681}
-    m_Position: {x: 390, y: 270, z: 0}
+    m_State: {fileID: -8236620218590091176}
+    m_Position: {x: 360, y: 320, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -4278163429672512823}
-    m_Position: {x: 425, y: 335, z: 0}
+    m_State: {fileID: -4422444713461350651}
+    m_Position: {x: 390, y: 390, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6943743377047301686}
-    m_Position: {x: 460, y: 400, z: 0}
+    m_State: {fileID: 8186491877486665742}
+    m_Position: {x: 430, y: 450, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8721066968399050783}
+    m_Position: {x: 460, y: 520, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5716663278821879220}
+    m_Position: {x: 500, y: 580, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -34,14 +66,14 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -2660881783645573143}
---- !u!1102 &-6943743377047301686
+--- !u!1102 &-8236620218590091176
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Shirt_04
+  m_Name: Male_Shirt_07
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -54,20 +86,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8baf0ccfac0df465b90cd0760b3c4e77, type: 2}
+  m_Motion: {fileID: 7400000, guid: 21ec90c4279324f4db6557dbf00453ec, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5652041875211885331
+--- !u!1102 &-5716663278821879220
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Shirt_08
+  m_Name: Male_Shirt_13
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -80,20 +112,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fadab2761f377406f91bf70e377e7db0, type: 2}
+  m_Motion: {fileID: 7400000, guid: 775bbdcf26cb6471db2ca2dfc4c5ada4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-4278163429672512823
+--- !u!1102 &-4422444713461350651
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Shirt_11
+  m_Name: Male_Shirt_04
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -106,7 +138,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 89b82de9119ef4464956d015490831a5, type: 2}
+  m_Motion: {fileID: 7400000, guid: ac21f5f1f57e14d84b4df65f9df628fe, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -160,14 +192,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &961684501954072681
+--- !u!1102 &8186491877486665742
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Shirt_10
+  m_Name: Male_Shirt_09
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -180,7 +212,33 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a47699b33a3464b5693bcf92ceb88aaf, type: 2}
+  m_Motion: {fileID: 7400000, guid: c1f1c8198c59c4ed7993330fdbfec6e1, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8721066968399050783
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Male_Shirt_11
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 8a44005cbbf314dbeb960dd53a1aa708, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.8, y: -341.7}
+  m_AnchoredPosition: {x: -27.8, y: -393}
   m_SizeDelta: {x: 841.8212, y: 115.9406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139668
@@ -317,7 +317,7 @@ MonoBehaviour:
   - The treasure opens before you.
   - "But inside, it\u2019s not gold or jewels."
   - "it\u2019s something far more valuable:"
-  nextSceneName: LiteMapScene
+  nextSceneName: Summary
 --- !u!1 &71789345
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9351e8bd63315414db5e83b80e3f75e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00bd4a1ea04674ade913820169e3852e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

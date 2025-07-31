@@ -26,14 +26,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-2104461735154122776
+--- !u!1102 &-4687237902207960977
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Pants_10
+  m_Name: Male_Pants_03
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -46,7 +46,33 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6fd9f8bfc0d01472ea0afc03649f06ca, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2cdb0f28f2e314a94a027011b18f5dff, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-2728173011117411337
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Male_Pants_07
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 16e5c448ac70648cb8bf2c78a1542225, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -85,22 +111,25 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8149515000329367033}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: 330, y: 130, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 4448321653545551265}
-    m_Position: {x: 235, y: 65, z: 0}
+    m_State: {fileID: 2697505560059378298}
+    m_Position: {x: 360, y: 200, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 8007407115066774336}
-    m_Position: {x: 270, y: 130, z: 0}
+    m_State: {fileID: -4687237902207960977}
+    m_Position: {x: 400, y: 260, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3098050143127198868}
-    m_Position: {x: 305, y: 195, z: 0}
+    m_State: {fileID: 7299450552488706429}
+    m_Position: {x: 435, y: 325, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -2104461735154122776}
-    m_Position: {x: 340, y: 260, z: 0}
+    m_State: {fileID: -2728173011117411337}
+    m_Position: {x: 470, y: 390, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7274178744390239107}
-    m_Position: {x: 375, y: 325, z: 0}
+    m_State: {fileID: 1245354298468404080}
+    m_Position: {x: 505, y: 455, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5849772467918925251}
+    m_Position: {x: 540, y: 520, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -111,14 +140,14 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -8149515000329367033}
---- !u!1102 &3098050143127198868
+--- !u!1102 &1245354298468404080
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Pants_06
+  m_Name: Male_Pants_08
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -131,20 +160,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a1706da5964904c59ae7786f3fcf0aad, type: 2}
+  m_Motion: {fileID: 7400000, guid: dcb2b2de927b4422aa0399c793143bb5, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &4448321653545551265
+--- !u!1102 &2697505560059378298
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Pants_11
+  m_Name: Male_Pants_01
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -157,20 +186,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0b3f73a5f79e544bf8b1058c63f42e00, type: 2}
+  m_Motion: {fileID: 7400000, guid: 4cb3ee78784994f6abc72690a751c333, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7274178744390239107
+--- !u!1102 &5849772467918925251
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Pants_07
+  m_Name: Male_Pants_10
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -183,20 +212,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d238ce627094e469384fd6422a2f7788, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6c28fdb66aca14cafae223a0a466e051, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &8007407115066774336
+--- !u!1102 &7299450552488706429
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_Pants_02
+  m_Name: Male_Pants_06
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -209,7 +238,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2d410d66f7fab4d36ad6b968d260ed8e, type: 2}
+  m_Motion: {fileID: 7400000, guid: e5d3d35b1da3643429bbdca95cec8e1e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

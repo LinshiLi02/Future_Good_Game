@@ -39,14 +39,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Open the chest.unity
     guid: 52c3d5247699b435ca2515278a497ba8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ReadLetter
       0.unity
     guid: be0b163f1ad684c9691b4e96f4a7c461
-  - enabled: 1
+  - enabled: 0
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ResultScene.unity
     guid: 711ecec9ecd7f4919b95b3abc6b39b7d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/ReadLetter
       1.unity
     guid: e7e36c842a22545eaa8d87724a70bcad
@@ -54,6 +54,15 @@ EditorBuildSettings:
     path: Assets/Resources/Characters/Change 1.unity
     guid: 4c253d8b19dba4faf927bc918c48719c
   - enabled: 1
-    path: Assets/Resources/Characters/Change.unity
+    path: Assets/Resources/Characters/FemaleChange.unity
     guid: 192c675e87f9545cf92cecf4817a3925
+  - enabled: 1
+    path: Assets/Resources/Characters/Entergame.unity
+    guid: 207c303d16cc3494fb85946eb76354af
+  - enabled: 1
+    path: Assets/Resources/Characters/MaleChange.unity
+    guid: 497836afbb17d446d962325769465002
+  - enabled: 1
+    path: Assets/Isle/Platformer Tileset - Pixelart Grasslands/Scenes/Summary.unity
+    guid: b71f7e6f43d9e48b89ef915bf95252bf
   m_configObjects: {}
